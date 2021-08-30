@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:background="@color/purple_700"
+    android:layout_height="55dp">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:textAlignment="viewStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:padding="7dp"
+            android:background="#DDAB14"
+            android:textColor="#F41010"
+            android:textStyle="bold"
+            android:text="TextView" />
+
+        <ImageView
+            android:layout_marginStart="20dp"
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        </ImageView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        </Button>
+        <Button
+            android:layout_marginStart="20dp"
+            android:id="@+id/iv_check_box"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_check"
+            android:layout_gravity="right">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
